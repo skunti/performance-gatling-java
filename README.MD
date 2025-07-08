@@ -6,37 +6,42 @@ It is structured for maintainability, extensibility, and ease of execution.
 ---
 
 ## Project Structure
-ambient-performance-gatling-java
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.ambient.performance
-│   │   │       ├── config
-│   │   │       │   └── GatlingConfig.java
-│   │   │       └── model
-│   │   │           └── AppointmentRequest.java
-│   │   └── resources
-│   │
-│   └── test
-│       ├── java
-│       │   └── com.ambient.performance
-│       │       ├── base
-│       │       │   └── BaseSimulation.java
-│       │       └── simulations
-│       │           ├── CreateAppointmentsSimulation.java
-│       │           ├── CreateAppointmentsStaticSimulation.java
-│       │           └── QueryAppointmentsSimulation.java
-│       │
-│       └── resources
-│           ├── data
-│           │   ├── appointments.json
-│           │   └── create_appointment.json
-│           ├── config.properties
-│           └── gatling.conf
+ambient-performance-gatling-java/
 │
 ├── pom.xml
-└── .gitignore
+├── .gitignore
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── ambient/
+│   │   │           └── performance/
+│   │   │               ├── config/
+│   │   │               │   └── GatlingConfig.java
+│   │   │               └── model/
+│   │   │                   └── AppointmentRequest.java
+│   │   └── resources/
+│
+│   └── test/
+│       ├── java/
+│       │   └── com/
+│       │       └── ambient/
+│       │           └── performance/
+│       │               ├── base/
+│       │               │   └── BaseSimulation.java
+│       │               └── simulations/
+│       │                   ├── CreateAppointmentsSimulation.java
+│       │                   ├── CreateAppointmentsStaticSimulation.java
+│       │                   └── QueryAppointmentsSimulation.java
+│       │
+│       └── resources/
+│           ├── config.properties
+│           ├── gatling.conf
+│           └── data/
+│               ├── appointments.json
+│               └── create_appointment.json
+
 
 ## Features
 
