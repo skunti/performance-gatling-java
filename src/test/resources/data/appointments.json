@@ -1,0 +1,20 @@
+[
+  {
+    "client_id": "109d526f-c73a-4721-8237-e6fca264006f",
+    "item": {
+      "scheduled_start": "2025-07-06T11:34:00.000Z",
+      "scheduled_end": "2025-07-06T11:49:00.000Z",
+      "patient_name": "Mary Jane",
+      "notes": "Regular checkup appointment"
+    }
+  },
+  {
+    "client_id": "109d526f-c73a-4721-8237-e6fca264006f",
+    "item": {
+      "scheduled_start": "2025-07-06T12:00:00.000Z",
+      "scheduled_end": "2025-07-06T12:30:00.000Z",
+      "patient_name": "John Doe",
+      "notes": "Follow-up consultation"
+    }
+  }
+]
